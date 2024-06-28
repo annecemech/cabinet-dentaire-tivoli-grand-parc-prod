@@ -1,0 +1,44 @@
+.legal {
+  @apply container mx-auto;
+  padding-top: 8rem;
+
+  h1 {
+    @apply text-3xl font-bold text-primary text-center;
+  }
+
+  .subtitle {
+    @apply block text-sm text-center;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    @apply text-xl font-bold text-secondary;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    @apply font-bold text-main;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    @apply text-main italic;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  a:hover {
+    @apply text-secondary;
+  }
+
+  ul {
+    @apply list-disc list-inside;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+}

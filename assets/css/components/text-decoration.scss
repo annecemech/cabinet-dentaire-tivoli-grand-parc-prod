@@ -1,0 +1,16 @@
+.marker-primary {
+  position: relative;
+  z-index: 1;
+}
+
+.marker-primary::before {
+content: '';
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    @apply bg-primary rounded-2xl;
+    z-index: -1;
+}
+

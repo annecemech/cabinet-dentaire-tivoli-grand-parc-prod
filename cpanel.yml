@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mean3045/selarl-beylot.chirurgiens-dentistes.fr
+    - /bin/cp -R * $DEPLOYPATH
